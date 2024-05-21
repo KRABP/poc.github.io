@@ -1,0 +1,120 @@
+
+.pop{
+  display: flex;
+}
+.ikona{
+  padding: 20px;
+border: 2px solid #E81E25;
+background: #E5D3BD;
+margin: 2px;
+width: 60px;
+height: 50px;
+margin-left: 1010px;
+ }
+ .biof{
+padding: 20px;
+border: 2px solid #E81E25;
+background: #E5D3BD;
+margin: 2px;
+width: 60px;
+height: 50px;
+ }
+ .nop{
+  padding: 20px;
+border: 2px solid #E81E25;
+background: #E5D3BD;
+margin: 2px;
+width: 60px;
+height: 50px;
+ }
+ .rrro{
+  margin: 33px;
+  margin-top: 30px;
+  
+ }
+ .lo2{
+  margin: 33px;
+  margin-top: 300px;
+
+ }
+.lo3{
+margin: 33px;
+  margin-top: 300px;
+}
+
+.footer{
+
+margin-top: 250px;
+padding: 20px;
+border: 2px solid #353399;
+background: #E5D3BD;
+}
+.root{
+margin: -30px;
+}
+.roop{
+text-align: right;
+height: 80px;
+margin: -30px 0;
+}
+.c-moon{
+padding: 20px;
+background: #d39353;
+margin-right: 990px;
+border: 2px solid #353399;
+height: 6cm;
+
+}
+.c-moon1{
+height: -0.8cm;
+
+}
+.c-moon2{
+margin-left: 380px;
+width: 2px;
+margin-top: -280px;
+background: #353399;
+
+}
+.notnot img{
+height: 170px;
+position: relative;
+}
+.ppp{
+margin-left: 10cm;
+}
+.poiut{
+padding: 20px;
+background: #d39353;
+margin-right: 990px;
+border: 2px solid #353399;
+height: 6cm;
+width: 306.5px;
+margin-left: -33px;
+
+}
+.poiut img{
+height: 170px;
+position: relative;
+}
+.ret{
+margin-left: 2.3cm;
+}
+.c-moon5{
+margin-left: 380px;
+width: 2px;
+margin-top: -290px;
+background: #353399;
+}
+.mir{
+margin-left: 10cm;
+}
+A {
+text-decoration: none;
+}
+A:hover { 
+text-decoration: underline; 
+color: red; 
+transition: 0.5s;
+} 
+
