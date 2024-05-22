@@ -10,6 +10,7 @@ margin: 2px;
 width: 60px;
 height: 50px;
 margin-left: 1010px;
+margin-top: -8cm;
  }
  .biof{
 padding: 20px;
@@ -18,6 +19,7 @@ background: #E5D3BD;
 margin: 2px;
 width: 60px;
 height: 50px;
+margin-top: -8cm;
  }
  .nop{
   padding: 20px;
@@ -26,6 +28,7 @@ background: #E5D3BD;
 margin: 2px;
 width: 60px;
 height: 50px;
+margin-top: -8cm;
  }
  .rrro{
   margin: 33px;
@@ -117,4 +120,29 @@ text-decoration: underline;
 color: red; 
 transition: 0.5s;
 } 
+.ohio{
+  padding: 20px; 
+  background: 0; 
+  border: 2px solid #74c0ca; 
+  margin-right: 10cm;
+margin-bottom: -1cm;
+position: relative;
+height: 10cm;
+
+}
+.arrow {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 
