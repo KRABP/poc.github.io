@@ -8,11 +8,38 @@
        
     </head>
 
-  <body bgcolor="">
+  <body>
+
+    <a href="#" class="arrow" title="Наверх">↑</a>
+
+    <script>
+
+        window.onscroll = function() {
+            var scrollPos = window.pageYOffset;
+            var scrollButton = document.querySelector('.arrow');
+            
+            if (scrollPos > 100) {
+                scrollButton.style.display = 'block';
+            } else {
+                scrollButton.style.display = 'none';
+            }
+        };
+
+
+        document.querySelector('.arrow').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+
+    <div class="ohio"></div>
     <div class="pop">
     <div class="ikona">
       <div>
-        
         <p align="center"><a href="text.html"><a href="#top"> Купить</a></a></p></div>
     
     </div>
@@ -26,7 +53,7 @@
 <p align="center"><a href="text.html"><a href="#izo">Связь</a></a></p>
   </div>
  </div>
- <div class="lo3"><h1><a name="top">Купить</a></h1></div>
+ <div class="lo3"><h1 style="margin-top: -4cm;"><a name="top">Купить</a></h1></div>
  <div class="c-moon"><p class="c-moon1"><center><h3>Кирпич
   <div class="notnot"><p align="center"><img src="img\кирпич.jpg" height="200px" title="Кирпич"></p></div>
  </h3></center></p></div>
